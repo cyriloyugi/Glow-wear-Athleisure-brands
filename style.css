@@ -1,0 +1,120 @@
+body{
+      background: #f8f9fa;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* NAVBAR */
+    .navbar{
+      background: linear-gradient(90deg, #111, #222);
+      padding: 15px 0;
+    }
+
+    /* Logo */
+    .logo-box{
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      background: linear-gradient(45deg, hotpink, orange, cyan, limegreen);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 22px;
+      font-weight: bold;
+      box-shadow: 0 0 15px rgba(255,255,255,0.3);
+    }
+    .logo{
+      height: 70px;
+      width: 100px;
+      border-radius: 50%;
+    }
+
+    /* Animated Business Name */
+    .brand-name{
+      font-size: 28px;
+      font-weight: bold;
+      margin-left: 12px;
+      background: linear-gradient(
+        90deg,
+        #ff0080,
+        #ff8c00,
+        #40e0d0,
+        #7fff00,
+        #ff0080
+      );
+      background-size: 300%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: colorMove 5s linear infinite;
+    }
+
+    @keyframes colorMove{
+      0%{
+        background-position: 0%;
+      }
+      100%{
+        background-position: 300%;
+      }
+    }
+
+    /* Hero Section */
+    .hero{
+      min-height: 90vh;
+      display: flex;
+      align-items: center;
+      background: linear-gradient(to right, #ffe4f3, #eef7ff);
+      padding: 50px 0;
+    }
+
+    .hero h1{
+      font-size: 55px;
+      font-weight: bold;
+      color: #222;
+    }
+
+    .hero p{
+      font-size: 20px;
+      color: #555;
+    }
+
+    .custom-btn{
+      background: linear-gradient(45deg, hotpink, purple);
+      color: white;
+      border: none;
+      padding: 12px 30px;
+      border-radius: 30px;
+      transition: 0.4s;
+    }
+
+    .custom-btn:hover{
+      transform: scale(1.05);
+      color: white;
+    }
+
+    /* Cards */
+    .info-card{
+      border: none;
+      border-radius: 20px;
+      padding: 25px;
+      transition: 0.4s;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+      height: 100%;
+    }
+
+    .info-card:hover{
+      transform: translateY(-10px);
+    }
+
+    .section-title{
+      font-size: 40px;
+      font-weight: bold;
+      color: #222;
+    }
+
+    footer{
+      background: #111;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+  
